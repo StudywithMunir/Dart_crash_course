@@ -1,7 +1,9 @@
 //Abstraction allows us to define only essential details.
 //All enemies must have an attack() method, but we don’t define how it works.
 
-abstract class Enemy {
+//An abstract class is like a template or blueprint for other classes.
+// It cannot be used directly to create objects but forces child classes to implement specific methods.
+abstract class Enemy { //making it abstract class
   String name;
   Enemy(this.name);
 
